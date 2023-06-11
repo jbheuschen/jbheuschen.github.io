@@ -25,7 +25,7 @@ const config = {
     telegram: '',
     website: 'https://jbheuschen.me',
     phone: '',
-    email: 'julian@jbheuschen.me',
+    email: 'contact@jbheuschen.me',
   },
   resume: {
     fileUrl:
@@ -33,19 +33,17 @@ const config = {
   },
   skills: [
     'PHP',
-    'Laravel',
     'JavaScript',
     'React.js',
     'Node.js',
-    'Nest.js',
+    'Remix.run',
     'MySQL',
-    'PostgreSQL',
     'Git',
     'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
     'Tailwind',
+    'Swift',
+    'Java Spring',
+    'Linux Administration',
   ],
   experiences: [
     {
@@ -70,14 +68,14 @@ const config = {
       companyLink: 'https://bmwbank.de',
     },
   ],
-  /* certifications: [
+  certifications: [
     {
-      name: 'Lorem ipsum',
+      name: 'Swift Student Challenge 2020',
       body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
+      year: 'May 2020',
       link: 'https://example.com'
     },
-  ], */
+  ],
   education: [
     {
       institution: 'Heinrich-von-Gagern-Gymnasium',
@@ -87,7 +85,7 @@ const config = {
     },
     {
       institution: 'Duale Hochschule Badem-Württemberg',
-      degree: '',
+      degree: 'Bachelor of Science',
       from: '2023',
       to: '2025',
     },
