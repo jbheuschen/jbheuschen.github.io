@@ -51,16 +51,23 @@ const config = {
     {
       company: 'main Incubator GmbH',
       position: 'Intern',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      from: 'January 2020',
+      to: 'February 2021',
+      companyLink: 'https://main-incubator.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Neosfer GmbH',
+      position: 'Intern',
+      from: 'June 2022',
+      to: 'July 2022',
+      companyLink: 'https://neosfer.de',
+    },
+    {
+      company: 'BMW Bank GmbH',
+      position: 'Co-OP Computer Science / Business Administration',
+      from: 'September 2023',
+      to: 'Present',
+      companyLink: 'https://bmwbank.de',
     },
   ],
   /* certifications: [
@@ -73,16 +80,16 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
+      institution: 'Heinrich-von-Gagern-Gymnasium',
+      degree: 'Allgemeine Hochschulreife (A levels)',
       from: '2015',
-      to: '2019',
+      to: '2023',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Duale Hochschule Badem-Württemberg',
+      degree: '',
+      from: '2023',
+      to: '2025',
     },
   ],
 
@@ -105,8 +112,8 @@ const config = {
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: 'medium', // medium | dev
+    username: 'jbheuschen', // to hide blog section, keep it empty
     limit: 2, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
@@ -118,11 +125,11 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'wireframe',
+    defaultTheme: 'bumblebee',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
