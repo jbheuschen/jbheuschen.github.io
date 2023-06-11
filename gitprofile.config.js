@@ -4,7 +4,7 @@ const config = {
   github: {
     username: 'jbheuschen', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
-    limit: 10, // How many projects to display.
+    limit: 8, // How many projects to display.
     exclude: {
       forks: true, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
@@ -61,6 +61,13 @@ const config = {
       companyLink: 'https://neosfer.de',
     },
     {
+      company: 'Stiftung Polytechnische Gesellschaft',
+      position: 'Volunteer Mentor',
+      from: 'September 2021',
+      to: 'July 2023',
+      companyLink: 'https://digitechnikum.de',
+    },
+    {
       company: 'BMW Bank GmbH',
       position: 'Co-OP Computer Science / Business Administration',
       from: 'September 2023',
@@ -70,10 +77,22 @@ const config = {
   ],
   certifications: [
     {
-      name: 'Swift Student Challenge 2020',
-      body: 'Lorem ipsum dolor sit amet',
+      name: 'Apple Inc., WWDC 2020 Scholarship',
+      body: 'Winner of the 2020 WWDC Scholarship',
       year: 'May 2020',
-      link: 'https://example.com'
+      link: 'https://developer.apple.com/wwdc20/swift-student-challenge/'
+    },
+    {
+      name: 'Stiftung Polytechnische Gesellschaft, Digitechnikum',
+      body: 'Scholar of the Digitechnikum Scholarship by Stiftung Polytechnische Gesellschaft',
+      year: 'September 2020',
+      link: 'https://digitechnikum.de'
+    },
+    {
+      name: 'Apple Inc., Swift Student Challenge 2021',
+      body: 'Winner of the 2021 Swift Student Challenge',
+      year: 'May 2021',
+      link: 'https://developer.apple.com/wwdc21/swift-student-challenge/'
     },
   ],
   education: [
@@ -93,7 +112,7 @@ const config = {
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
-    {
+    /*{
       title: 'Project Name',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
@@ -106,7 +125,7 @@ const config = {
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
       imageUrl: 'https://via.placeholder.com/250x250',
       link: 'https://example.com',
-    },
+    },*/
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
