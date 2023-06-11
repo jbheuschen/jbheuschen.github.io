@@ -12,7 +12,7 @@ const config = {
   },
   social: {
     linkedin: 'julian-benedikt-heuschen',
-    twitter: 'HeuschenJ',
+    twitter: 'jbheuschen',
     mastodon: '',
     facebook: '',
     instagram: 'jbheuschen',
