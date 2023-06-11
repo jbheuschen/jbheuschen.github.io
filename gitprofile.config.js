@@ -2,7 +2,7 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'jbheuschen', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
@@ -11,25 +11,25 @@ const config = {
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'julian-benedikt-heuschen',
+    twitter: 'HeuschenJ',
+    mastodon: '',
     facebook: '',
-    instagram: '',
+    instagram: 'jbheuschen',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: 'jbheuschen',
+    dev: '',
     stackoverflow: '', // format: userid/username
     skype: '',
     telegram: '',
-    website: 'https://arifszn.com',
+    website: 'https://jbheuschen.me',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'julian@jbheuschen.me',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PHP',
@@ -49,8 +49,8 @@ const config = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
+      company: 'main Incubator GmbH',
+      position: 'Intern',
       from: 'September 2021',
       to: 'Present',
       companyLink: 'https://example.com',
