@@ -106,7 +106,7 @@ const config = {
       institution: 'Duale Hochschule Badem-Württemberg',
       degree: 'Bachelor of Science',
       from: '2023',
-      to: '2025',
+      to: '2026',
     },
   ],
 
